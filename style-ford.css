@@ -1,0 +1,118 @@
+html{
+	height:100%;
+	min-height: 100%;
+}
+
+body{
+	display:flex;
+	flex-direction: column;
+	min-height: 100%;
+	
+}
+
+header {
+	padding: 20px 0;
+}
+
+.logo-principal {
+    padding: 15px 0;
+}
+
+.caixa {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #1351d8;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: black;
+	
+}
+
+.imagem-1 {
+	display: flex;
+	height: auto;
+	min-width: 15rem;
+	min-height: auto;
+	justify-content: center;
+
+}
+
+.imagem-1 a{
+	margin: 3rem 3rem 1rem 2rem
+}
+
+.imagem-1 a img {
+	width: 100%;
+}
+
+p {
+	text-align: center;
+	margin: 10px 10px;
+	font-weight: bold;
+}
+
+footer{
+	display: flex;
+	width: 100%;
+	background:#1b357e;
+    justify-content: space-between;
+	align-items: center;
+	margin-top: auto;
+}
+
+.social-midia{
+	display: flex;
+	align-items: center;
+}
+
+
+.foot{
+	color: white;
+	text-align: left;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+
+img{
+	margin: 0 15px;
+}
+
+/*css da pagina lançamento*/
+
+.video{
+	width: 940px;
+	margin: 2em auto;
+}
+
+.legenda{
+	font-size: 17px;
+	margin: 20px 20px;
+	font-weight: bold;
+
+}
+
+.veiculos{
+	display: inline-block;
+	padding: 0 180px;
+}
+
+.tabela{
+	padding: 0 30px;
+}
+
