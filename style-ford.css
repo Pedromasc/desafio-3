@@ -111,16 +111,17 @@ img{
 
 .veiculos{
 	display:flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 	padding: 0 35px 0;
 }
 
 .tabela{
 	display:flex;
-	justify-content: space-between;
-	padding:0 110px 30px 120px;
+	justify-content: space-around;
+	padding: 0 auto;
 	text-align: center;
+	margin: 20px 0;
 }
 
 .titulo{
@@ -128,9 +129,5 @@ img{
 }
 
 .checkbox{
-	display:flex;
-	padding-left: 52px;
-
-		
+	padding: 0 -150px 0 -150px;
 }
-
