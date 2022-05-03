@@ -129,5 +129,30 @@ img{
 }
 
 .checkbox{
-	padding: 0 -150px 0 -150px;
+	display:inline-block;
+	justify-content: space-around;
+	width:18px;
+	height: 18px;
+}
+
+.enviar {
+	position: relative;
+	left: 43%;
+	margin: 30px 0;
+	width:12%;
+	background: rgb(42, 42, 241);
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+	display:flex;
+	
+}
+
+.enviar:hover {
+	background: rgb(30, 30, 236);
+	transform: scale(1.2);
 }
