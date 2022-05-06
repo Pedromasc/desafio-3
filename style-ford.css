@@ -161,17 +161,13 @@ img{
 /* css da pagina contato */
 
 #tituloform{
-	display: flex;margin-left: 49%;
-	margin-top: 20px;
 	font-weight: bold;
 	font-size: 18px;
 	position: relative;
+	margin: 10px 0;
+	margin: 0 0 5px 0;
 }
 
-fieldset{
-	border: 0;
-	margin: 0 0 30px 0;
-}
 
 form{
 	position:relative;
@@ -183,14 +179,17 @@ form{
 }
 
 .grupo{
+	display: flex;
+	flex-direction: column;
 	margin-top: 7px ;
 	justify-content: center;
-
+	border: 0;
+	margin: 0 0 30px 0;
+	
 }
 
-.grupo2{
-	justify-content: center;
-	
+.item-carro{
+	float: left;
 }
 
 .item{
@@ -210,9 +209,5 @@ form{
 input, select, textarea {
 	border-radius: 5px;
 	
-}
-
-textarea{
-	vertical-align: auto;
 }
 
