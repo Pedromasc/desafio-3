@@ -110,31 +110,26 @@ img{
 
 }
 
-.veiculos{
-	display:flex;
+
+.flex-vehicles{
+	display: flex;
+	flex-direction: row;
 	justify-content: space-around;
+	flex-wrap: wrap;
 	align-items: center;
-	padding: 0 35px 0;
+	margin-left: 35px;
 }
 
-.tabela{
-	display:flex;
-	justify-content: space-around;
-	padding: 0 auto;
-	text-align: center;
-	margin: 20px 0;
+.table-text{
+	padding-left: 39px;
+	
+	
 }
 
-.titulo{
-	color:blue;
+.botao{
+	height: 50px;
 }
 
-.checkbox{
-	display:inline-block;
-	justify-content: space-around;
-	width:18px;
-	height: 18px;
-}
 
 .enviar {
 	position: relative;
